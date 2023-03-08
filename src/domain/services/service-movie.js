@@ -1,6 +1,6 @@
 const magic = require('../../utils/magic');
-const enum_ = require('../../utils/enum')
-const odmMovie = require('../odm/odm-movie')
+const enum_ = require('../../utils/enum');
+const odmMovie = require('../odm/odm-movie');
 
 exports.getAll = async (req, res) => {
     let status = 'Success',
