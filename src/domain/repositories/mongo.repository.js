@@ -8,7 +8,7 @@ dotenv.config();
 
 let db = {};
 
-if (config.db.mongodb && config.db.mongodb.lenght > 0) {
+if (config.db.mongodb && config.db.mongodb.length > 0) {
     config.db.mongodb.map((c) => {
         mongoose.connect(process.env.MONGO_URI, {
             useNewUrlParser: true,
