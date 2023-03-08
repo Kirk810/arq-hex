@@ -1,6 +1,6 @@
 const enum_ = require('./enum');
 
-exports.ResponsiveService = async (status, errorCode, message, data) => {
+exports.ResponseService = async (status, errorCode, message, data) => {
     return await {
         status: status,
         info: { errorCode: errorCode, message: message, data: data },
