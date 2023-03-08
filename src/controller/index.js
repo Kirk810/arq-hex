@@ -6,6 +6,6 @@ const shows = require('../domain/services/service-show');
 router.get('/movies', movies.getAll);
 router.post('/movies', movies.Create);
 router.get('/shows', shows.getAll);
-router.post('/shows', shows.getAll);
+router.post('/shows', shows.Create);
 
 module.exports = router;
